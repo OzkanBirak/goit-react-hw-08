@@ -1,0 +1,20 @@
+<svg width="192" height="192" viewBox="0 0 192 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <rect width="192" height="192" rx="96" fill="#000000"/>
+  
+  <!-- Green glass effect background shape -->
+  <path d="M48 48C48 21.49 69.49 0 96 0H96C122.51 0 144 21.49 144 48V144C144 170.51 122.51 192 96 192H96C69.49 192 48 170.51 48 144V48Z" fill="#00F600" opacity="0.8"/>
+  
+  <!-- Head circle -->
+  <circle cx="96" cy="80" r="24" fill="#00F600" opacity="0.9"/>
+  
+  <!-- Body shape -->
+  <path d="M48 128C48 101.49 69.49 80 96 80H96C122.51 80 144 101.49 144 128V168C144 194.51 122.51 216 96 216H96C69.49 216 48 194.51 48 168V128Z" fill="#00F600" opacity="0.7"/>
+  
+  <!-- Glass highlight effects -->
+  <circle cx="80" cy="70" r="8" fill="white" opacity="0.3"/>
+  <circle cx="112" cy="90" r="6" fill="white" opacity="0.2"/>
+  
+  <!-- Subtle glow effect -->
+  <circle cx="96" cy="96" r="60" fill="none" stroke="#00F600" stroke-width="2" opacity="0.4"/>
+</svg> 

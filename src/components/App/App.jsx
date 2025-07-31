@@ -10,6 +10,7 @@ import Registration from '../../pages/Registration/Registration';
 import Contacts from '../../pages/Contacts/Contacts';
 import PrivateRoute from '../PrivateRoute';
 import RestrictedRoute from '../RestrictedRoute';
+import FloatingCard from '../FloatingCard/FloatingCard';
 import styles from './App.module.css';
 
 export default function App() {
@@ -30,37 +31,40 @@ export default function App() {
   }
 
   return (
-    <Layout>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route
-          path="/register"
-          element={
-            <RestrictedRoute
-              redirectTo="/contacts"
-              component={<Registration />}
-            />
-          }
-        />
-        <Route
-          path="/login"
-          element={
-            <RestrictedRoute
-              redirectTo="/contacts"
-              component={<Login />}
-            />
-          }
-        />
-        <Route
-          path="/contacts"
-          element={
-            <PrivateRoute
-              redirectTo="/login"
-              component={<Contacts />}
-            />
-          }
-        />
-      </Routes>
-    </Layout>
+    <>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route
+            path="/register"
+            element={
+              <RestrictedRoute
+                redirectTo="/contacts"
+                component={<Registration />}
+              />
+            }
+          />
+          <Route
+            path="/login"
+            element={
+              <RestrictedRoute
+                redirectTo="/contacts"
+                component={<Login />}
+              />
+            }
+          />
+          <Route
+            path="/contacts"
+            element={
+              <PrivateRoute
+                redirectTo="/login"
+                component={<Contacts />}
+              />
+            }
+          />
+        </Routes>
+      </Layout>
+      <FloatingCard />
+    </>
   );
 } 

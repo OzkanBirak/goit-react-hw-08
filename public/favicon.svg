@@ -1,16 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- Phone handset in bright blue -->
-  <path d="M8 6c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v20c0 1.1-.9 2-2 2H10c-1.1 0-2-.9-2-2V6z" fill="#0085FF"/>
+  <!-- Background circle with gradient effect -->
+  <defs>
+    <linearGradient id="phoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0085FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003465;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone handset with gradient -->
+  <path d="M8 6c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v20c0 1.1-.9 2-2 2H10c-1.1 0-2-.9-2-2V6z" fill="url(#phoneGradient)"/>
   
   <!-- Phone receiver curve -->
-  <path d="M10 8c0-.6.4-1 1-1h10c.6 0 1 .4 1 1v16c0 .6-.4 1-1 1H11c-.6 0-1-.4-1-1V8z" fill="#0085FF"/>
+  <path d="M10 8c0-.6.4-1 1-1h10c.6 0 1 .4 1 1v16c0 .6-.4 1-1 1H11c-.6 0-1-.4-1-1V8z" fill="url(#phoneGradient)"/>
   
-  <!-- Dark blue notification bubble -->
-  <path d="M18 4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2v6c0 1.1-.9 2-2 2h-4c-1.1 0-2-.9-2-2V4z" fill="#003465"/>
+  <!-- Notification bubble with glass effect -->
+  <path d="M18 4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2v6c0 1.1-.9 2-2 2h-4c-1.1 0-2-.9-2-2V4z" fill="#003465" opacity="0.9"/>
   
   <!-- Speech bubble tail -->
-  <path d="M20 12l-2 2v-2h2z" fill="#003465"/>
+  <path d="M20 12l-2 2v-2h2z" fill="#003465" opacity="0.9"/>
   
   <!-- Notification line in bubble -->
   <rect x="20" y="6" width="4" height="1" rx="0.5" fill="white"/>
+  
+  <!-- Glass highlight effect -->
+  <path d="M10 8c0-.6.4-1 1-1h10c.6 0 1 .4 1 1v16c0 .6-.4 1-1 1H11c-.6 0-1-.4-1-1V8z" fill="white" opacity="0.1"/>
 </svg> 

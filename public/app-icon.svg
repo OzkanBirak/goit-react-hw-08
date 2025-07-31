@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background circle with gradient effect -->
+  <defs>
+    <linearGradient id="phoneGradientLarge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0085FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003465;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#phoneGradientLarge)" filter="url(#glow)"/>
+  
+  <!-- Phone handset with gradient -->
+  <path d="M128 96c0-17.7 14.3-32 32-32h192c17.7 0 32 14.3 32 32v320c0 17.7-14.3 32-32 32H160c-17.7 0-32-14.3-32-32V96z" fill="white" opacity="0.9"/>
+  
+  <!-- Phone receiver curve -->
+  <path d="M160 128c0-8.8 7.2-16 16-16h160c8.8 0 16 7.2 16 16v256c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V128z" fill="url(#phoneGradientLarge)"/>
+  
+  <!-- Notification bubble with glass effect -->
+  <path d="M288 64c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32v96c0 17.7-14.3 32-32 32h-64c-17.7 0-32-14.3-32-32V64z" fill="white" opacity="0.9"/>
+  
+  <!-- Speech bubble tail -->
+  <path d="M320 192l-32 32v-32h32z" fill="white" opacity="0.9"/>
+  
+  <!-- Notification line in bubble -->
+  <rect x="320" y="96" width="64" height="8" rx="4" fill="#003465"/>
+  
+  <!-- Glass highlight effect -->
+  <path d="M160 128c0-8.8 7.2-16 16-16h160c8.8 0 16 7.2 16 16v256c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V128z" fill="white" opacity="0.2"/>
+  
+  <!-- Additional glow effect -->
+  <circle cx="256" cy="256" r="200" fill="none" stroke="white" stroke-width="2" opacity="0.3"/>
+</svg> 
