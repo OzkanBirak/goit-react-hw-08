@@ -9,6 +9,7 @@
   color: #fff;
   font-size: 1.5rem;
   font-weight: 600;
+  font-family: 'Inter', sans-serif;
   text-align: center;
   text-shadow: 0 2px 8px rgba(0, 52, 101, 0.6);
   margin-bottom: 1rem;
@@ -18,6 +19,7 @@
   color: #fff;
   text-align: center;
   font-size: 1.1rem;
+  font-family: 'Inter', sans-serif;
   opacity: 0.8;
   padding: 2rem;
 }

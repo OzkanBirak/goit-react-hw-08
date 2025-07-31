@@ -5,6 +5,7 @@
   margin-bottom: 1rem;
   text-shadow: 0 2px 8px rgba(0, 52, 101, 0.6);
   font-weight: 600;
+  font-family: 'Inter', sans-serif;
 }
 
 .description {
@@ -14,6 +15,7 @@
   line-height: 1.6;
   opacity: 0.9;
   margin-bottom: 2rem;
+  font-family: 'Inter', sans-serif;
 }
 
 .features {
@@ -28,6 +30,7 @@
   text-align: center;
   font-size: 1rem;
   opacity: 0.8;
+  font-family: 'Inter', sans-serif;
 }
 
 @media (max-width: 600px) {

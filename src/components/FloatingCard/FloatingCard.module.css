@@ -40,7 +40,8 @@
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
   color: white;
   box-shadow: 0 4px 12px rgba(0, 133, 255, 0.3);
   overflow: hidden;
@@ -63,6 +64,7 @@
   color: #fff;
   font-size: 1.25rem;
   font-weight: 600;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
@@ -72,6 +74,7 @@
   font-size: 0.9rem;
   margin: 0;
   font-weight: 400;
+  font-family: 'Inter', sans-serif;
 }
 
 .content {
@@ -86,6 +89,8 @@
   gap: 0.5rem;
   color: rgba(255, 255, 255, 0.9);
   font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   text-decoration: none;
   transition: all 0.2s;
   padding: 0.5rem;
@@ -122,6 +127,8 @@
   cursor: pointer;
   transition: all 0.2s;
   font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
 
 .closeButton:hover {
@@ -157,6 +164,7 @@
     width: 40px;
     height: 40px;
     font-size: 1.25rem;
+    font-family: 'Inter', sans-serif;
   }
   
   .avatarImage {
@@ -166,9 +174,11 @@
   
   .name {
     font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
   }
   
   .title {
     font-size: 0.8rem;
+    font-family: 'Inter', sans-serif;
   }
 } 

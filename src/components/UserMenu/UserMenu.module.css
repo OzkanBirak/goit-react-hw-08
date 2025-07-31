@@ -13,11 +13,13 @@
 
 .userName {
   font-weight: 600;
+  font-family: 'Inter', sans-serif;
   font-size: 1rem;
 }
 
 .userEmail {
   font-size: 0.8rem;
+  font-family: 'Inter', sans-serif;
   opacity: 0.8;
 }
 
@@ -28,6 +30,7 @@
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
   font-weight: 500;
+  font-family: 'Inter', sans-serif;
   cursor: pointer;
   transition: all 0.2s;
   border: 1px solid rgba(255, 255, 255, 0.3);
