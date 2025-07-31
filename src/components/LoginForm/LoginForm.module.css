@@ -1,0 +1,73 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 8px rgba(0, 52, 101, 0.6);
+}
+
+.input {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  color: #003465;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.input::placeholder {
+  color: rgba(0, 52, 101, 0.7);
+}
+
+.input:focus {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 2px rgba(0, 133, 255, 0.3);
+}
+
+.button {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background: #0085FF;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 133, 255, 0.3);
+}
+
+.button:hover {
+  background: #005fa3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 133, 255, 0.4);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 600px) {
+  .form {
+    gap: 1rem;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .input, .button {
+    font-size: 0.95rem;
+    padding: 0.6rem 0.8rem;
+  }
+} 

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Phone handset in bright blue -->
+  <path d="M8 6c0-1.1.9-2 2-2h12c1.1 0 2 .9 2 2v20c0 1.1-.9 2-2 2H10c-1.1 0-2-.9-2-2V6z" fill="#0085FF"/>
+  
+  <!-- Phone receiver curve -->
+  <path d="M10 8c0-.6.4-1 1-1h10c.6 0 1 .4 1 1v16c0 .6-.4 1-1 1H11c-.6 0-1-.4-1-1V8z" fill="#0085FF"/>
+  
+  <!-- Dark blue notification bubble -->
+  <path d="M18 4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2v6c0 1.1-.9 2-2 2h-4c-1.1 0-2-.9-2-2V4z" fill="#003465"/>
+  
+  <!-- Speech bubble tail -->
+  <path d="M20 12l-2 2v-2h2z" fill="#003465"/>
+  
+  <!-- Notification line in bubble -->
+  <rect x="20" y="6" width="4" height="1" rx="0.5" fill="white"/>
+</svg> 
